@@ -23,6 +23,7 @@ androidstudio(){
 
 packertracer(){
     echo "Packettracer installing...."
+	wget https://archive.org/download/packet-tracer-731-amd-64/PacketTracer_731_amd64.deb && sudo dpkg -i PacketTracer_731_amd64.deb
 }
 cpplus(){
     echo "C++ programming installing...."
@@ -62,12 +63,19 @@ virtualbox(){
 	sudo apt install virtualbox
 	echo "virtualbox installed Sucessfully"
 }
+arduino(){
+	echo "Arduino installing...."
+	 sudo snap install arduino
+}
 out(){
 echo "All requirements are installed Sucessfully"
 }
 
 
 # exicutng funtions
+aptupdate
+requirement
+aptupdate
 chrome
 aptupdate
 androidstudio
