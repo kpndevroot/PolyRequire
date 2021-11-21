@@ -5,7 +5,7 @@
 
 Step 1 : Open terminal
 
-                ctrl+t
+                ctrl+alt+t
 
 Step 1 : clone the repository
 
